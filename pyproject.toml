@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "cw-3-aleksei-volkov"
+version = "0.1.0"
+description = ""
+authors = ["Volk0vAlex <volkov.alex1986@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cw_3_aleksei_volkov"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
